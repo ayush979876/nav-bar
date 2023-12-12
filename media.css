@@ -1,0 +1,36 @@
+/* @media screen and (max-width:768px){
+  ul li{
+    font-size: 0.9rem;
+  }
+} */
+
+@media screen and (max-width:426px){
+  .flex1{
+    display: flex;
+    flex-direction: column;
+    background-color: darkred;
+    height: 100vh;
+    gap: 50px;
+  width: 40vh;
+  margin-right: 0;
+  }
+  .right-side{
+    position: relative;
+    right: -100%;
+    transition: 0.8s;
+  }
+  .active.right-side{
+    right: 0;
+    transition: 0.8s;
+  }
+  .icon{
+    display: block;
+  }
+  .icon2{
+    display: block;
+  }
+  .active.left-side{
+    display: none;
+   
+  }
+}
